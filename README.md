@@ -118,3 +118,7 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 - 删除系统自带的 ABC 输入法
   - 下载 PlistEdit
   - 前往路径
+
+
+
+[未完待续]
