@@ -212,10 +212,18 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 
   ```Shell
   ~/.oh-my-zsh/themes/agnoster.zsh-theme
+  ```
   
+  ![](Images/zsh.png)
+
+- 安装高亮插件
+
+  ```Shell
+  cd ~/.oh-my-zsh/custom/plugins/
   
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
   
-  
+  vi ~/.zshrc
   ```
 
   
