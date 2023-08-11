@@ -1,6 +1,6 @@
 # Mac_Setup_List
 
-### 关闭开机声音防止社死
+### 关闭开机声音
 
 
 
@@ -19,6 +19,12 @@
 ```shell
 defaults -currentHost write -g AppleFontSmoothing -int 0
 ```
+
+
+
+### 关闭 SIP 以及 降低安全性
+
+>  公司设备视情况酌情考虑
 
 
 
@@ -60,7 +66,7 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 - 始终显示日期
 - 不显示星期
 
-#### 关闭 Siri
+#### 关闭 Siri 搜索建议
 
 #### 隐私与安全性
 
@@ -77,6 +83,7 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 - 弃用将窗口最小化值引用程序图标
 - 仅在台前调度中点按壁纸以显示桌面项目
 - 不在 Dock 中显示最近使用的程序
+- 设置触发角
 
 #### 键盘
 
@@ -133,14 +140,82 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 
 ### 安装 iStat Menus
 
-[ZhongWentao2002/My_Configs: 个人的一些配置文件 (github.com)](https://github.com/ZhongWentao2002/My_Configs)
+- Optional:[ZhongWentao2002/My_Configs: 个人的一些配置文件 (github.com)](https://github.com/ZhongWentao2002/My_Configs)
 
 
 
 ### 安装 iTerm
 
+- 设置 iTerm 为默认的应用
+  - sh 与 可执行程序
+
 ### 配置命令行 与Oh My Zsh
 
-- 
-- 
+- 安装 Xcode
 
+- 安装 Command Line Tools
+
+- 安装 Python (装 x86 版，保证兼容性)
+
+- 安装 Homebrew
+
+  ```Shell
+   (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/chase-zhong/.zprofile
+      eval "$(/opt/homebrew/bin/brew shellenv)"
+  ```
+
+- 安装 Oh My Zsh
+
+  ```Shell
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  ```
+
+- 安装 PowerLine
+
+  ```Shell
+  pip3 install powerline-status --user
+  ```
+
+- 安装 PowerFonts
+
+  ```Shell
+  git clone https://github.com/powerline/fonts.git --depth=1
+  
+  cd fonts
+  
+  ./install.sh
+  ```
+
+- 安装 Agnoster 主题
+
+  ```Shell
+  git clone https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor.git
+  
+  cd oh-my-zsh-agnoster-fcamblor/
+  
+  ./install
+  ```
+
+- 导入配置文件 (Optional)
+
+  [ZhongWentao2002/My_Configs: 个人的一些配置文件 (github.com)](https://github.com/ZhongWentao2002/My_Configs)
+
+- 隐藏主机名
+
+  ```Shell
+  # .zshrc
+  
+  DEFAULT_USER=$USER
+  ```
+
+- 缩短文件夹路径
+
+  ```Shell
+  ~/.oh-my-zsh/themes/agnoster.zsh-theme
+  
+  
+  
+  
+  ```
+
+  
