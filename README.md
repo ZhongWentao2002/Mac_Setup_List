@@ -121,4 +121,26 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 
 
 
-[未完待续]
+### 安装 Mos
+
+> macOS 的鼠标滚轮支持欠优化，需要安装鼠标平滑软件
+
+- 开机启动
+- 隐藏状态栏图标
+- 虚拟机添加白名单
+
+
+
+### 安装 iStat Menus
+
+[ZhongWentao2002/My_Configs: 个人的一些配置文件 (github.com)](https://github.com/ZhongWentao2002/My_Configs)
+
+
+
+### 安装 iTerm
+
+### 配置命令行 与Oh My Zsh
+
+- 
+- 
+
