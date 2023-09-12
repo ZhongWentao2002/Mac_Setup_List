@@ -97,7 +97,7 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 - 在页面之间轻扫 -> 关闭
 - 关闭通知中心手势
 - 关闭显示桌面
-- 开启 Exopose
+- 开启 Expose
 
 
 
