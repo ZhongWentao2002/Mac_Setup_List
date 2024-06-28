@@ -160,10 +160,9 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 - 安装 Homebrew
 
   ```Shell
-   (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/chase-zhong/.zprofile
-      eval "$(/opt/homebrew/bin/brew shellenv)"
+  /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
   ```
-
+  
 - 安装 Oh My Zsh
 
   ```Shell
