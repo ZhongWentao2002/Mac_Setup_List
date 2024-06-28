@@ -163,6 +163,15 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
   /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
   ```
   
+- 修改 hosts
+
+  ```
+  185.199.108.133 raw.githubusercontent.com
+  185.199.109.133 raw.githubusercontent.com
+  185.199.110.133 raw.githubusercontent.com
+  185.199.111.133 raw.githubusercontent.com
+  ```
+
 - 安装 Oh My Zsh
 
   ```Shell
@@ -216,6 +225,8 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
   ![](Images/zsh.png)
 
 - 安装高亮插件
+
+- 将hosts复原
 
   ```Shell
   cd ~/.oh-my-zsh/custom/plugins/
