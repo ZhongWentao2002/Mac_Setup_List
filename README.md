@@ -165,17 +165,20 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
   
 - 修改 hosts
 
-  ```
-  185.199.108.133 raw.githubusercontent.com
-  185.199.109.133 raw.githubusercontent.com
-  185.199.110.133 raw.githubusercontent.com
-  185.199.111.133 raw.githubusercontent.com
-  ```
+[通过修改Hosts解决国内Github经常抽风访问不到](https://github.com/maxiaof/github-hosts)
 
 - 安装 Oh My Zsh
 
   ```Shell
+  # old
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+  # new
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+  # CN
+  sh -c "$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"
+
   ```
 
 - 安装 PowerLine
